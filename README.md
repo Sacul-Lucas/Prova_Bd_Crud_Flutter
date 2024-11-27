@@ -5,7 +5,20 @@ Tarefa desenvolvida por: Lucas de Matos, Luann de Almeida Cunha e Hallony
 
 Tutoriais e procedimentos para a instalação e configuração da aplicação CRUD:
 
-1. Requisitos
+1. Requisitos e características da linguagem
+
+O que é Flutter?
+
++ Flutter é um framework open-source criado pelo Google para a construção de aplicativos nativos compilados para dispositivos móveis, web e desktop com uma única base de código.
++ Ele utiliza a linguagem de programação Dart, que é fácil de aprender, moderna e otimizada para performance.
++ Flutter é especialmente conhecido por permitir a criação de interfaces de usuário de alta performance e visualmente atraentes.
+
+Vantagens do Flutter:
+
++ Desenvolvimento multiplataforma: você pode compilar seu aplicativo para iOS, Android e outras plataformas.
++ Hot reload: permite visualizar as mudanças no código em tempo real, o que acelera o desenvolvimento.
++ Widgets personalizados: possui uma vasta gama de widgets que permitem personalizar completamente a UI.
+
 Antes de começar, é importante ter alguns requisitos instalados e configurados:
 
   + Flutter SDK: Para desenvolver o aplicativo.
