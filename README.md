@@ -16,6 +16,7 @@ Antes de começar, é importante ter alguns requisitos instalados e configurados
   + Pacote http para comunicação com o banco de dados: No Flutter.
 
 2. Instalação e Configuração do Ambiente
+   
   Passo 1: Instalar o XAMPP e o Mysql Workbench
     + Download do XAMPP: Acesse o site oficial do XAMPP e baixe a versão adequada para seu sistema operacional (Windows, macOS, Linux).
     + Instalação: Siga o assistente de instalação.
