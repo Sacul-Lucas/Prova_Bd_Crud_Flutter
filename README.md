@@ -53,10 +53,10 @@ Instalação: Siga o assistente de instalação e configure como usuario root se
 3. Desenvolvimento da Aplicação Flutter
   Passo 1: Criar um Novo Projeto Flutter
     + No VS Code, abra o terminal e execute:
-      flutter create crud_app
-      cd crud_app
+      flutter create prova_bd_crud_flutter
+      cd prova_bd_crud_flutter
    
-    + Abra o projeto no VS Code (File > Open Folder e selecione a pasta crud_app).
+    + Abra o projeto no VS Code (File > Open Folder e selecione a pasta prova_bd_crud_flutter).
 
   Passo 2: Adicionar Dependências
     + Abra o arquivo pubspec.yaml e adicione a dependência http para fazer a comunicação com o banco de dados:
@@ -71,7 +71,7 @@ Instalação: Siga o assistente de instalação e configure como usuario root se
     + Conexão com o Banco de Dados
       1. Para interagir com o MySQL, você pode criar uma API em PHP ou usar algum backend para expor os dados. Aqui, vou ilustrar uma simples API PHP que você pode usar localmente.
       
-    + Criar os Arquivos PHP para a API CRUD: No diretório do XAMPP (C:\xampp\htdocs ou o caminho correspondente), crie uma pasta chamada crud_app e adicione os seguintes arquivos:
+    + Criar os Arquivos PHP para a API CRUD: No diretório do XAMPP (C:\xampp\htdocs ou o caminho correspondente), crie uma pasta chamada crud_flutter_app e adicione os seguintes arquivos:
       1. conexao.php (para conectar ao MySQL):
         <?php
           $servername = "localhost";
@@ -389,7 +389,7 @@ class _CRUDPageState extends State<CRUDPage> {
 4. Passo a Passo para Executar a Aplicação
    + Inicie o XAMPP e os serviços Apache e MySQL.
    + Abra o MySQL Workbench e crie o banco de dados conforme mencionado.
-   + Coloque os arquivos PHP na pasta htdocs/crud_app dentro do XAMPP.
+   + Coloque os arquivos PHP na pasta htdocs/crud_flutter_app dentro do XAMPP.
    + No Flutter, abra o projeto e execute flutter run.
    + Teste as operações CRUD no Flutter.
 
