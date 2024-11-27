@@ -6,12 +6,12 @@ Tutoriais e procedimentos para a instalação e configuração da aplicação CR
 1. Requisitos
 Antes de começar, é importante ter alguns requisitos instalados e configurados:
 
-+ Flutter SDK: Para desenvolver o aplicativo.
-+ VS Code: Como editor de código.
-+ XAMPP: Para configurar o servidor Apache e o banco de dados MySQL.
-+ MySQL Workbench: Para gerenciar o banco de dados MySQL.
-+ Dart e Flutter Extensions no VS Code: Para habilitar o suporte ao Flutter no VS Code.
-+ Pacote http para comunicação com o banco de dados: No Flutter.
+  + Flutter SDK: Para desenvolver o aplicativo.
+  + VS Code: Como editor de código.
+  + XAMPP: Para configurar o servidor Apache e o banco de dados MySQL.
+  + MySQL Workbench: Para gerenciar o banco de dados MySQL.
+  + Dart e Flutter Extensions no VS Code: Para habilitar o suporte ao Flutter no VS Code.
+  + Pacote http para comunicação com o banco de dados: No Flutter.
 
 2. Instalação e Configuração do Ambiente
   Passo 1: Instalar o XAMPP e o Mysql Workbench
@@ -40,15 +40,15 @@ Instalação: Siga o assistente de instalação e configure como usuario root se
       INSERT INTO users (name, email) VALUES ('Lucas', 'rei@daComputaria.com');
 
   Passo 3: Instalar o Flutter e Configurar o VS Code
-  + Download do Flutter SDK: Acesse o site oficial do Flutter e siga o guia de instalação para seu sistema operacional.
-  + Instalar o VS Code: Baixe e instale o VS Code aqui.
-  + Instalar as Extensões: No VS Code, instale as extensões "Flutter" e "Dart" diretamente na Visual Studio Marketplace.
-  Para mais informações e detalhes mais específicos sobre a instalação, acesse: [{https://docs.flutter.dev/get-started/install/windows/mobile}] [{https://docs.flutter.dev/get-started/codelab}]
+    + Download do Flutter SDK: Acesse o site oficial do Flutter e siga o guia de instalação para seu sistema operacional.
+    + Instalar o VS Code: Baixe e instale o VS Code aqui.
+    + Instalar as Extensões: No VS Code, instale as extensões "Flutter" e "Dart" diretamente na Visual Studio Marketplace.
+    Para mais informações e detalhes mais específicos sobre a instalação, acesse: https://docs.flutter.dev/get-started/install/windows/mobile https://docs.flutter.dev/get-started/codelab
 
   Passo 4: Configuração do Flutter
-  + Abra o terminal no VS Code e execute o seguinte comando para verificar a instalação do Flutter:
+    + Abra o terminal no VS Code e execute o seguinte comando para verificar a instalação do Flutter:
       flutter doctor
-  + Certifique-se de que não há problemas na instalação (o comando deve retornar "no issues found").
+    + Certifique-se de que não há problemas na instalação (o comando deve retornar "no issues found").
 
 3. Desenvolvimento da Aplicação Flutter
   Passo 1: Criar um Novo Projeto Flutter
@@ -387,11 +387,11 @@ class _CRUDPageState extends State<CRUDPage> {
 
 
 4. Passo a Passo para Executar a Aplicação
- + Inicie o XAMPP e os serviços Apache e MySQL.
- + Abra o MySQL Workbench e crie o banco de dados conforme mencionado.
- + Coloque os arquivos PHP na pasta htdocs/crud_app dentro do XAMPP.
- + No Flutter, abra o projeto e execute flutter run.
- + Teste as operações CRUD no Flutter.
+   + Inicie o XAMPP e os serviços Apache e MySQL.
+   + Abra o MySQL Workbench e crie o banco de dados conforme mencionado.
+   + Coloque os arquivos PHP na pasta htdocs/crud_app dentro do XAMPP.
+   + No Flutter, abra o projeto e execute flutter run.
+   + Teste as operações CRUD no Flutter.
 
 
   
