@@ -18,6 +18,7 @@ Antes de começar, é importante ter alguns requisitos instalados e configurados
 2. Instalação e Configuração do Ambiente
    
   Passo 1: Instalar o XAMPP e o Mysql Workbench
+  
     + Download do XAMPP: Acesse o site oficial do XAMPP e baixe a versão adequada para seu sistema operacional (Windows, macOS, Linux).
     + Instalação: Siga o assistente de instalação.
     + Iniciar Apache e MySQL: Após a instalação, abra o XAMPP e inicie os serviços "Apache" e "MySQL".
@@ -28,6 +29,7 @@ Download do Mysql Workbench: Acesse o site oficial do Mysql e baixe a versão ad
 Instalação: Siga o assistente de instalação e configure como usuario root sem senha (configuração padrão).
 
   Passo 2: Configuração do Banco de Dados no MySQL
+  
     + Abrir o MySQL Workbench: Após iniciar o MySQL no XAMPP, abra o MySQL Workbench e conecte-se ao servidor local.
     + Criar o Banco de Dados: Execute o seguinte comando no MySQL Workbench para criar o banco de dados:
       CREATE DATABASE crud_app;
@@ -44,18 +46,22 @@ Instalação: Siga o assistente de instalação e configure como usuario root se
       INSERT INTO users (name, email) VALUES ('Lucas', 'rei@daComputaria.com');
 
   Passo 3: Instalar o Flutter e Configurar o VS Code
+  
     + Download do Flutter SDK: Acesse o site oficial do Flutter e siga o guia de instalação para seu sistema operacional.
     + Instalar o VS Code: Baixe e instale o VS Code aqui.
     + Instalar as Extensões: No VS Code, instale as extensões "Flutter" e "Dart" diretamente na Visual Studio Marketplace.
     Para mais informações e detalhes mais específicos sobre a instalação, acesse: https://docs.flutter.dev/get-started/install/windows/mobile https://docs.flutter.dev/get-started/codelab
 
   Passo 4: Configuração do Flutter
+  
     + Abra o terminal no VS Code e execute o seguinte comando para verificar a instalação do Flutter:
       flutter doctor
     + Certifique-se de que não há problemas na instalação (o comando deve retornar "no issues found").
 
 3. Desenvolvimento da Aplicação Flutter
+   
   Passo 1: Criar um Novo Projeto Flutter
+  
     + No VS Code, abra o terminal e execute:
       flutter create prova_bd_crud_flutter
       cd prova_bd_crud_flutter
@@ -63,6 +69,7 @@ Instalação: Siga o assistente de instalação e configure como usuario root se
     + Abra o projeto no VS Code (File > Open Folder e selecione a pasta prova_bd_crud_flutter).
 
   Passo 2: Adicionar Dependências
+  
     + Abra o arquivo pubspec.yaml e adicione a dependência http para fazer a comunicação com o banco de dados:
       dependencies:
         flutter:
@@ -72,6 +79,7 @@ Instalação: Siga o assistente de instalação e configure como usuario root se
       flutter pub get
 
   Passo 3: Desenvolver o Código para CRUD
+  
     + Conexão com o Banco de Dados
       1. Para interagir com o MySQL, você pode criar uma API em PHP ou usar algum backend para expor os dados. Aqui, vou ilustrar uma simples API PHP que você pode usar localmente.
       
