@@ -6,19 +6,19 @@ Tutoriais e procedimentos para a instalação e configuração da aplicação CR
 1. Requisitos
 Antes de começar, é importante ter alguns requisitos instalados e configurados:
 
-• Flutter SDK: Para desenvolver o aplicativo.
-• VS Code: Como editor de código.
-• XAMPP: Para configurar o servidor Apache e o banco de dados MySQL.
-• MySQL Workbench: Para gerenciar o banco de dados MySQL.
-• Dart e Flutter Extensions no VS Code: Para habilitar o suporte ao Flutter no VS Code.
-• Pacote http para comunicação com o banco de dados: No Flutter.
++ Flutter SDK: Para desenvolver o aplicativo.
++ VS Code: Como editor de código.
++ XAMPP: Para configurar o servidor Apache e o banco de dados MySQL.
++ MySQL Workbench: Para gerenciar o banco de dados MySQL.
++ Dart e Flutter Extensions no VS Code: Para habilitar o suporte ao Flutter no VS Code.
++ Pacote http para comunicação com o banco de dados: No Flutter.
 
 2. Instalação e Configuração do Ambiente
   Passo 1: Instalar o XAMPP e o Mysql Workbench
-    • Download do XAMPP: Acesse o site oficial do XAMPP e baixe a versão adequada para seu sistema operacional (Windows, macOS, Linux).
-    • Instalação: Siga o assistente de instalação.
-    • Iniciar Apache e MySQL: Após a instalação, abra o XAMPP e inicie os serviços "Apache" e "MySQL".
-    • Testar: No navegador, acesse http://localhost para verificar se o Apache está funcionando. Para o MySQL, você pode acessar http://localhost/phpmyadmin.
+    + Download do XAMPP: Acesse o site oficial do XAMPP e baixe a versão adequada para seu sistema operacional (Windows, macOS, Linux).
+    + Instalação: Siga o assistente de instalação.
+    + Iniciar Apache e MySQL: Após a instalação, abra o XAMPP e inicie os serviços "Apache" e "MySQL".
+    + Testar: No navegador, acesse http://localhost para verificar se o Apache está funcionando. Para o MySQL, você pode acessar http://localhost/phpmyadmin.
 
 Download do Mysql Workbench: Acesse o site oficial do Mysql e baixe a versão adequada para seu sistema operacional (Windows, macOS, Linux).
 Instalação: Siga o assistente de instalação e configure como usuario root sem senha (configuração padrão).
