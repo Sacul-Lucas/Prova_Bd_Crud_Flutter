@@ -1,5 +1,6 @@
 # Prova_Bd_Crud_Flutter
 CRUD básico feito com Flutter, Mysql e PHP
+Tarefa desenvolvida por: Lucas de Matos, Luann de Almeida Cunha e Hallony
 
 Tutoriais e procedimentos para a instalação e configuração da aplicação CRUD:
 
