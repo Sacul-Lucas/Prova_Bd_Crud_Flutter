@@ -99,7 +99,7 @@ Instalação: Siga o assistente de instalação e configure como usuario root se
       
   + Criar os Arquivos PHP para a API CRUD: No diretório do XAMPP (C:\xampp\htdocs ou o caminho correspondente), crie uma pasta chamada crud_flutter_app e adicione os seguintes arquivos:
       1. conexao.php (para conectar ao MySQL):
-         ```php
+      ```php
         <?php
           $servername = "localhost";
           $username = "root"; // default for XAMPP
@@ -111,9 +111,9 @@ Instalação: Siga o assistente de instalação e configure como usuario root se
             die("Connection failed: " . $conn->connect_error);
           }
         ?>
-        ```
+     ```
       2. create.php (para criar um novo registro):
-         ```php
+      ```php
         <?php
           include 'conexao.php';
 
@@ -129,9 +129,9 @@ Instalação: Siga o assistente de instalação e configure como usuario root se
 
           $conn->close();
         ?>
-        ```
+      ```
       3. read.php (para ler os registros):
-         ```php
+      ```php
         <?php
           include 'Conexão.php';
 
@@ -151,10 +151,10 @@ Instalação: Siga o assistente de instalação e configure como usuario root se
           
           $conn->close();
           ?>
-          ```
+      ```
 
       4. update.php (para atualizar um registro):
-         ```php
+       ```php
         <?php
           include 'conexao.php';
 
@@ -171,9 +171,9 @@ Instalação: Siga o assistente de instalação e configure como usuario root se
 
           $conn->close();
         ?>
-         ```
+      ```
       5. delete.php (para deletar um registro):
-         ```php
+      ```php
         <?php
           include 'Conexão.php';
 
@@ -198,7 +198,7 @@ Instalação: Siga o assistente de instalação e configure como usuario root se
 
           $conn->close();
         ?>
-        ```
+       ```
 
 Passo 4: Criar a Interface Flutter
 
