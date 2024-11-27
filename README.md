@@ -32,14 +32,13 @@ Antes de começar, é importante ter alguns requisitos instalados e configurados
    
   Passo 1: Instalar o XAMPP e o Mysql Workbench
   
-  * Download do XAMPP: Acesse o site oficial do XAMPP e baixe a versão adequada para seu sistema operacional (Windows, macOS, Linux).
-  * Instalação: Siga o assistente de instalação.
-  * Iniciar Apache e MySQL: Após a instalação, abra o XAMPP e inicie os serviços "Apache" e "MySQL".
-  * Testar: No navegador, acesse http://localhost para verificar se o Apache está funcionando. Para o MySQL, você pode acessar http://localhost/phpmyadmin.
+  + Download do XAMPP: Acesse o site oficial do XAMPP e baixe a versão adequada para seu sistema operacional (Windows, macOS, Linux).
+  + Instalação: Siga o assistente de instalação.
+  + Iniciar Apache e MySQL: Após a instalação, abra o XAMPP e inicie os serviços "Apache" e "MySQL".
+  + Testar: No navegador, acesse http://localhost para verificar se o Apache está funcionando. Para o MySQL, você pode acessar http://localhost/phpmyadmin.
 
-Download do Mysql Workbench: Acesse o site oficial do Mysql e baixe a versão adequada para seu sistema operacional (Windows, macOS, Linux).
-
-Instalação: Siga o assistente de instalação e configure como usuario root sem senha (configuração padrão).
+  + Download do Mysql Workbench: Acesse o site oficial do Mysql e baixe a versão adequada para seu sistema operacional (Windows, macOS, Linux).
+  + Instalação: Siga o assistente de instalação e configure como usuario root sem senha (configuração padrão).
 
   Passo 2: Configuração do Banco de Dados no MySQL
   
