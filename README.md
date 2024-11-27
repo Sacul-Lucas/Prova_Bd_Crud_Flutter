@@ -56,7 +56,7 @@ Instalação: Siga o assistente de instalação e configure como usuario root se
   + Download do Flutter SDK: Acesse o site oficial do Flutter e siga o guia de instalação para seu sistema operacional.
   + Instalar o VS Code: Baixe e instale o VS Code aqui.
   + Instalar as Extensões: No VS Code, instale as extensões "Flutter" e "Dart" diretamente na Visual Studio Marketplace.
-  + Para mais informações e detalhes mais específicos sobre a instalação, acesse: https://docs.flutter.dev/get-started/install/windows/mobile https://docs.flutter.dev/get-started/codelab
+  + Para mais informações e detalhes mais específicos sobre a instalação, acesse o [tutorial de instalação com o Vs code](https://docs.flutter.dev/get-started/install/windows/mobile) e o [tutorial de configuração e inicialização da aplicação](https://docs.flutter.dev/get-started/codelab)
 
   Passo 4: Configuração do Flutter
   
