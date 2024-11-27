@@ -17,7 +17,7 @@ Antes de começar, é importante ter alguns requisitos instalados e configurados
 
 2. Instalação e Configuração do Ambiente
   Passo 1: Instalar o XAMPP e o Mysql Workbench
-    + Download do XAMPP: Acesse o site oficial do XAMPP e baixe a versão adequada para seu sistema operacional (Windows, macOS, Linux).
+    * Download do XAMPP: Acesse o site oficial do XAMPP e baixe a versão adequada para seu sistema operacional (Windows, macOS, Linux).
     + Instalação: Siga o assistente de instalação.
     + Iniciar Apache e MySQL: Após a instalação, abra o XAMPP e inicie os serviços "Apache" e "MySQL".
     + Testar: No navegador, acesse http://localhost para verificar se o Apache está funcionando. Para o MySQL, você pode acessar http://localhost/phpmyadmin.
