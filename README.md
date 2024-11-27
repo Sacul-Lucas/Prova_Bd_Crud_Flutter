@@ -168,8 +168,7 @@ Passo 4: Criar a Interface Flutter
 Agora, você pode criar uma interface simples no Flutter para consumir essas APIs. Aqui está um exemplo básico de como fazer a requisição HTTP no Flutter.
 
  • Abra o arquivo lib/main.dart e substitua o conteúdo por:
- 
-import 'package:flutter/material.dart';
+   import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
 
@@ -379,6 +378,7 @@ class _CRUDPageState extends State<CRUDPage> {
     );
   }
 }
+
 
 
 
